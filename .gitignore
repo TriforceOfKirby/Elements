@@ -1,0 +1,4 @@
+# Executables, objects, and dependencies
+bin/
+obj/
+.depend
