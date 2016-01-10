@@ -5,5 +5,4 @@
 class Equipment : public Item {
 public:
 	Equipment(std::string);
-	~Equipment();
 };
