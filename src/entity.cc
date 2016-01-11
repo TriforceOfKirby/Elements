@@ -85,3 +85,43 @@ void Entity::SetDexterity(double dexterity) {
 void Entity::SetCharisma(double charisma) {
 	this->charisma = charisma * (4294967295.0 / 100.0);
 }
+
+void Entity::SetVitality(uint32_t vitality) {
+	this->vitality = vitality;
+}
+
+void Entity::SetEndurance(uint32_t endurance) {
+	this->endurance = endurance;
+}
+
+void Entity::SetWisdom(uint32_t wisdom) {
+	this->wisdom = wisdom;
+}
+
+void Entity::SetStrength(uint32_t strength) {
+	this->strength = strength;
+}
+
+void Entity::SetResilience(uint32_t resilience) {
+	this->resilience = resilience;
+}
+
+void Entity::SetIntelligence(uint32_t intelligence) {
+	this->intelligence = intelligence;
+}
+
+void Entity::SetFortitude(uint32_t fortitude) {
+	this->fortitude = fortitude;
+}
+
+void Entity::SetAgility(uint32_t agility) {
+	this->agility = agility;
+}
+
+void Entity::SetDexterity(uint32_t dexterity) {
+	this->dexterity = dexterity;
+}
+
+void Entity::SetCharisma(uint32_t charisma) {
+	this->charisma = charisma;
+}

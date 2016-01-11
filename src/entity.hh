@@ -27,6 +27,16 @@ public:
 	void SetAgility(double);
 	void SetDexterity(double);
 	void SetCharisma(double);
+	void SetVitality(uint32_t);
+	void SetEndurance(uint32_t);
+	void SetWisdom(uint32_t);
+	void SetStrength(uint32_t);
+	void SetResilience(uint32_t);
+	void SetIntelligence(uint32_t);
+	void SetFortitude(uint32_t);
+	void SetAgility(uint32_t);
+	void SetDexterity(uint32_t);
+	void SetCharisma(uint32_t);
 protected:
 	std::string name;
 	Attribute vitality;
