@@ -6,7 +6,7 @@ class Attribute {
 public:
 	Attribute();
 	Attribute(uint32_t);
-	uint32_t Value() const;
+	double Value() const;
 private:
 	uint32_t value;
 };
