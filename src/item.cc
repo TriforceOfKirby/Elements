@@ -2,11 +2,11 @@
 #include "item.hh"
 
 Item::Item(std::string name) : name(name) {
-	std::clog << "Created item with name " << this->Name() << '\n';
+	std::clog << "Created item with name " << this->Name() << std::endl;
 }
 
 Item::~Item() {
-	std::clog << "Deleted item with name " << this->Name() << '\n';
+	std::clog << "Deleted item with name " << this->Name() << std::endl;
 }
 
 std::string Item::Name() const {
